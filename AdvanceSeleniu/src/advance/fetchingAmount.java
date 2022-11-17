@@ -28,7 +28,7 @@ public class fetchingAmount {
 		Thread.sleep(2000);
 		page.getClick_product().click();
 		//driver.findElement(By.xpath("//div[text()='Mobiles']")).click();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		
 		WebElement dropdown = page.getDropdown();
 		//WebElement dropdown = driver.findElement(By.xpath("(//select[@class=\"_2YxCDZ\"])[2]"));
